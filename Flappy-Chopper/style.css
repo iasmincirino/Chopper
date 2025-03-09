@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #ffe6f2; /* Rosa claro */
+    margin: 0;
+}
+  
+canvas { 
+    border: 2px solid #ffb6c1; /* Rosa claro mais escuro */
+    background-color: #fff; /* Branco */
+}
+  
+#startButton {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #ffb6c1; /* Rosa claro mais escuro */
+    color: #fff; /* Branco */
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+  
+#startButton:hover {
+    background-color: #ff92a1; /* Rosa um pouco mais escuro */
+}
+  
